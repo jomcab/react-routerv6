@@ -9,3 +9,4 @@
   * import { Routes, Route } from "react-router-dom"
   * import Home from './pages/Home';
   * add <Routes> component and multiple <Route> as needed inside it.
+  * add <NavLink> components for navigation.
