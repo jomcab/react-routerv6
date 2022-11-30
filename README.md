@@ -16,3 +16,6 @@
 * Update Book.tsx
   * utilize useParams() to get the id from url param
   * render the id
+* Add new book page
+  * update App.tsx to include the <Route> with path="/books/new"
+  * update BookList.tsx to include the <Link> for <NewBook> page
