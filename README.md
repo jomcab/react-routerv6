@@ -29,3 +29,5 @@
 * Move sub routes to Routes.tsx file
   * create BookRoutes.js and transfer the <Route>s code block from App.tsx
   * update app.tsx Route from path="/books" to path='/books/*' on path.
+* Add automatic redirection in <NotFound> page
+  * utilize useNavigate() hook
