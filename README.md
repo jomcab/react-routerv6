@@ -26,3 +26,6 @@
   * create BookLayour.tsx with <Outlet>
   * add context to <Outlet>
   * access outlet context value in other components using useOutletContext()
+* Move sub routes to Routes.tsx file
+  * create BookRoutes.js and transfer the <Route>s code block from App.tsx
+  * update app.tsx Route from path="/books" to path='/books/*' on path.
