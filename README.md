@@ -19,3 +19,5 @@
 * Add new book page
   * update App.tsx to include the <Route> with path="/books/new"
   * update BookList.tsx to include the <Link> for <NewBook> page
+* Add a Not Found Page
+  * Update App.js and add <Route> with path="*" element={<NotFound />}

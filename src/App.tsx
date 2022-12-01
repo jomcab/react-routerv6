@@ -4,6 +4,7 @@ import Book from './pages/Book';
 import BookList from './pages/BookList';
 import Home from './pages/Home';
 import NewBook from './pages/NewBook';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/books" element={<BookList />} />
       <Route path="/books/:id" element={<Book />} />
       <Route path="/books/new" element={<NewBook />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
     </>
   )
