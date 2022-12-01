@@ -21,3 +21,8 @@
   * update BookList.tsx to include the <Link> for <NewBook> page
 * Add a Not Found Page
   * Update App.js and add <Route> with path="*" element={<NotFound />}
+* Update book routes to nested routes
+  * update App.js routes
+  * create BookLayour.tsx with <Outlet>
+  * add context to <Outlet>
+  * access outlet context value in other components using useOutletContext()
